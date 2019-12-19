@@ -1,0 +1,19 @@
+.users-table {
+  padding: .5rem 1rem;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+
+.users-table__head {
+  padding: .5rem;
+}
+
+.users-table th, .users-table td {
+  border: 1px solid gray;  
+}
+
+.users-table td:last-child {
+  border: 0;
+  text-align: left;
+}

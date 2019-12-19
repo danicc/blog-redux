@@ -1,0 +1,25 @@
+.user-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  list-style: none;
+  padding: 1rem;
+  margin: 0;
+}
+
+.user-list__item {
+  padding: 1rem 0.5rem;
+  cursor: pointer;
+  margin: 0.2rem 0;
+  text-align: left;
+}
+
+.user-list__item:hover {
+  background-color: #96ea69;
+}
+
+.user-list__item--active {
+  border-bottom: 5px solid #0a8ecd;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

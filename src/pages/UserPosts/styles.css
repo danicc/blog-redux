@@ -1,0 +1,17 @@
+.user-posts {
+  display: flex;
+  flex-direction: row;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.user-posts__left {
+  display: flex;
+  width: 20%;
+}
+
+.user-posts__content {
+  width: 80%;
+  overflow: auto;
+  margin: .5rem .2rem;
+}
